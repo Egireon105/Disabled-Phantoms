@@ -1,47 +1,52 @@
 # Disabled Phantoms
 
-Мод для **Minecraft 1.21.1** на **Fabric**, который позволяет каждому игроку индивидуально включать или отключать спавн фантомов.
+A **Fabric** mod for **Minecraft 1.21.1** that allows every player to individually enable or disable phantom spawning.
 
 ---
 
-## 🎯 Возможности
+## 🎯 Features
 
-- **Индивидуальная настройка** — каждый игрок управляет спавном фантомов лично для себя.
-- **Команда `/phantoms spawn true/false`** — включает или отключает спавн фантомов.
-- **Настройка сохраняется** — даже после перезапуска игры или сервера.
-- **Работает на сервере** — настройки действуют для каждого игрока независимо.
-
----
-
-## 📋 Как это работает
-
-- Если у игрока включён спавн (`true`), фантомы появляются как обычно (после 3 дней без сна).
-- Если спавн выключен (`false`), фантомы **не будут** появляться из-за этого игрока.
-- Если рядом находятся два игрока с разными настройками, фантомы могут появиться из-за того, у кого включён спавн, и атаковать обоих.
+- **Individual settings** — each player controls phantom spawning for themselves.
+- **Command `/phantoms spawn true/false`** — turns phantom spawning on or off.
+- **Settings persist** — even after restarting the game or server.
+- **Works on servers** — settings apply per player, independently.
 
 ---
 
-## 🕹️ Команды
+## 📋 How it works
 
-| Команда | Описание |
-|---------|----------|
-| `/phantoms spawn true` | Включить спавн фантомов |
-| `/phantoms spawn false` | Отключить спавн фантомов |
+- If spawning is enabled (`true`), phantoms spawn as usual (after 3 days without sleeping).
+- If spawning is disabled (`false`), phantoms **will not** spawn because of that player.
+- If two players with different settings are nearby, phantoms can still spawn due to the player who has spawning enabled, and they may attack both.
 
 ---
 
-## ⚙️ Требования
+## 🕹️ Commands
+
+| Command | Description |
+|---------|-------------|
+| `/phantoms spawn true`  | Enable phantom spawning |
+| `/phantoms spawn false` | Disable phantom spawning |
+
+---
+
+## ⚙️ Requirements
 
 - **Minecraft:** 1.21.1
-- **Загрузчик:** Fabric
-- **Fabric API** (автоматически подтягивается)
+- **Loader:** Fabric
+- **Fabric API** (automatically included)
 
 ---
 
-## 📦 Установка
+## 📦 Installation
 
-1. Скачай последнюю версию мода с [Modrinth](#) (ссылка появится после публикации).
-2. Помести JAR-файл в папку `mods`.
-3. Запусти игру или сервер.
+1. Download the latest version of the mod (available on [Modrinth](#) or [GitHub Releases](#)).
+2. Place the JAR file into your `mods` folder.
+3. Launch the game or server.
 
 ---
+
+## 🔧 Building from source
+
+```bash
+./gradlew build
