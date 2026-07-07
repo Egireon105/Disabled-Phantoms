@@ -1,0 +1,5 @@
+{
+    "command.phantoms.spawn.enabled": "✅ Phantoms enabled",
+    "command.phantoms.spawn.disabled": "❌ Phantoms disabled",
+    "command.phantoms.error.not_player": "This command is only for players"
+}
