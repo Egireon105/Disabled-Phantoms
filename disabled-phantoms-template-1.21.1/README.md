@@ -45,8 +45,3 @@ A **Fabric** mod for **Minecraft 1.21.1** that allows every player to individual
 3. Launch the game or server.
 
 ---
-
-## 🔧 Building from source
-
-```bash
-./gradlew build
