@@ -1,0 +1,16 @@
+# Gradle
+.gradle/
+build/
+*/build/
+*/**/build/
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Локальные файлы
+*.log
+*.lock
+*.jar
+!gradle-wrapper.jar
