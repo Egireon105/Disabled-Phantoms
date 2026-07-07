@@ -1,0 +1,5 @@
+{
+    "command.phantoms.spawn.enabled": "✅ Фантомы включены",
+    "command.phantoms.spawn.disabled": "❌ Фантомы выключены",
+    "command.phantoms.error.not_player": "Команда только для игроков"
+}
