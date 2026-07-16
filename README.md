@@ -9,7 +9,6 @@ A **Fabric** mod for **Minecraft 1.21.1** that allows every player to individual
 
 - **Individual settings** — each player controls phantom spawning for themselves.
 - **Command `/phantoms spawn true/false`** — turns phantom spawning on or off.
-- **Settings persist** — even after restarting the game or server.
 - **Works on servers** — settings apply per player, independently.
 
 ---
