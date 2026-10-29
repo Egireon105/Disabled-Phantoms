@@ -32,7 +32,7 @@ A **Fabric** mod for **Minecraft 1.21.1** that allows every player to individual
 
 ## ⚙️ Requirements
 
-- **Minecraft:** 1.21.1
+- **Minecraft:** 1.21.1-1.21.11
 - **Loader:** Fabric
 - **Fabric API** (automatically included)
 
